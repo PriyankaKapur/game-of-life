@@ -15,6 +15,7 @@ public class HomePageController {
     @RequestMapping("/")
     public ModelAndView index() {
         return new ModelAndView("home");
+        System.out.println("GameofLife Change to trigger build");
     }
 
     @RequestMapping("/home")
