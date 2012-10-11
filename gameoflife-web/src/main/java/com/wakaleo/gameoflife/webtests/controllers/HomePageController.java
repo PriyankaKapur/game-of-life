@@ -14,7 +14,7 @@ public class HomePageController {
     // FIXME: do something nicer for the home page
     @RequestMapping("/")
     public ModelAndView index() {
-        System.out.println("GameofLife Change to trigger build AGAIN and AGAIN 3   ");
+        System.out.println("GameofLife Change to trigger build AGAIN and AGAIN and again   ");
         return new ModelAndView("home");
 
     }
